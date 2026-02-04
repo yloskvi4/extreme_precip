@@ -1,0 +1,14 @@
+name: threshold-calc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - xarray
+  - dask
+  - zarr
+  - numpy
+  - pyyaml
+  - netcdf4
+  - hypothesis
+  - pytest

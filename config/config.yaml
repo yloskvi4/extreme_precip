@@ -1,0 +1,8 @@
+threshold_calculation:
+  input_path: "/path/to/precipitation.nc"
+  output_path: "/path/to/thresholds.zarr"
+  wet_day_threshold: 1.0  # mm
+  min_events: 10
+  absolute_floor: 10.0  # mm
+  chunk_y: 100
+  chunk_x: 100
